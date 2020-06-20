@@ -1,0 +1,47 @@
+.{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+}
+.resume{
+  display: grid;
+  margin-left: 25%;
+  width:45%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.info{
+  text-align: center;
+  justify-content: center;
+  background-color: #87dfd6;
+}
+.info h4{
+  margin-top: 30px;
+}
+.info p{
+  font-weight: 800;
+  text-align: center;
+  padding: 0 10px 0 10px;
+}
+.ps{
+  padding: 20px;
+}
+.edu{
+  padding: 20px;
+}
+.edu p{
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ddf3f5;
+}
+.hb{
+  padding: 20px;
+}
+@media (min-device-width:320px) and (max-device-width:480px){
+  .resume{
+    margin:5%;
+    width: auto;
+  }
+}
